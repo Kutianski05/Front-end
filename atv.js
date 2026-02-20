@@ -1,6 +1,6 @@
 const form = document.getElementById("formCadastro");
 
-form.addEventListener("submit", function(event){
+form.addEventListener("submit", function(event) {
     event.preventDefault();
 
     const nome = document.getElementById("nome").value;
