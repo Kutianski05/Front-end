@@ -1,12 +1,13 @@
 const form = document.getElementById("formCadastro");
 
-form.addEventListener("submit", function (event){
-    event.preventDefault()
+form.addEventListener("submit", function(event){
+    event.preventDefault();
 
-    const dados = {
-        nome: document.getElementById("nome").value
-    
-    };
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
 
-    console.log(dados)
-})
+    console.log("Nome:", nome);
+    console.log("Email:", email);
+
+    alert("Cadastro realizado com sucesso!");
+});

@@ -6,18 +6,29 @@
     <title>cadastro</title>
 </head>
 <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PWsdHad9v60?si=iTyeFNBw46OFdWOd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PWsdHad9v60?si=iTyeFNBw46OFdWOd" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
   <br><br>  
+
   <h1>Cadastro de Usuario</h1>
   <br><br>
 
-  <!---"/cadastro" method="post" id="formCadastro"> -->
-  
   <form id="formCadastro">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome"
         placeholder="insira seu nome" required >
         <br><br>
+
+        <!-- NOVO CAMPO EMAIL -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"
+        placeholder="insira seu email" required>
+        <br><br>
+
         <button type="submit">Enviar</button>
   </form>
   
